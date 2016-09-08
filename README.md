@@ -22,3 +22,10 @@ to the version tag:
 ### License
 
 This package, just like the the RabbitMQ server, is licensed under the MPL. For the MPL, please see LICENSE-MPL-RabbitMQ.
+
+### Note
+
+This amqp-client is taken from https://github.com/jbrisbin/amqp_client
+Currently used in ex-autorenewals and it is needed to fix a compile error with Erlang OTP 19
+Without this, mix deps.get and mix.compile throw an error when amqp_client is a dependency
+

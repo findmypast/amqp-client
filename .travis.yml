@@ -8,7 +8,3 @@ otp_release:
    - 19.0
 
 script: "make"
-
-notifications:
-  recipients:
-    - jon@jbrisbin.com

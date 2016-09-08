@@ -1,0 +1,7 @@
+.DS_Store
+ebin
+deps
+.rebar
+.erlang.*
+.idea
+*.iml

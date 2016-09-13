@@ -18,6 +18,6 @@ ERLC_OPTS = +debug_info \
 COMPILE_FIRST = amqp_gen_consumer \
                 amqp_gen_connection
 
-dep_rabbit_common = git git@github.com:findmypast/rabbit-common.git
+dep_rabbit_common = git https://github.com/findmypast/rabbit-common.git
 
 include erlang.mk
